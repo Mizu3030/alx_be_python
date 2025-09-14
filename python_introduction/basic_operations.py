@@ -1,14 +1,8 @@
-# basic_operations.py
-
 number1 = 10
 number2 = 5
-
-# Perform operations
-sum_result = number1 + number2
-difference_result = number1 - number2
-product_result = number1 * number2
-
-# Print results
-print(f"Addition of {number1} and {number2} is {sum_result}")
-print(f"Subtraction of {number1} and {number2} is {difference_result}")
-print(f"Multiplication of {number1} and {number2} is {product_result}")
+add = number1 + number2
+diff = number1 - number2
+product = number1 * number2
+print("Addition of ", number1, " and ", number2, " is ", add)
+print("Subtraction of ", number1, " and ", number2, " is ", diff)
+print("Multuplication of ", number1, " and ", number2, " is ", product)
