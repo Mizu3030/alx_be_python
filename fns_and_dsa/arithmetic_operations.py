@@ -1,20 +1,6 @@
-from typing import Union
+# arithmetic_operations.py
 
-def perform_operation(num1: float, num2: float, operation: str) -> Union[float, str]:
-    """
-    Performs an arithmetic operation on two numbers.
-
-    Supported operations:
-        - 'add'
-        - 'subtract'
-        - 'multiply'
-        - 'divide'
-
-    Returns:
-        float: Result of the operation.
-        str: Error message if operation is invalid or division by zero.
-    """
-    operation = operation.lower()
+def perform_operation(num1: float, num2: float, operation: str):
     if operation == 'add':
         return num1 + num2
     elif operation == 'subtract':
